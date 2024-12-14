@@ -9,7 +9,7 @@ $(document).ready(function() {
         const vehicleType = $("#vehicleType").val();
 
         if (!ownerName || !vehicleModel || !vehicleNumber || !registrationDate || !vehicleType) {
-            alert("Please fill out all fields!");
+            alert("Please fill out this fields!");
             event.preventDefault();
         }
     });
